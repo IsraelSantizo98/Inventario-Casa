@@ -1,0 +1,32 @@
+:root{
+    --textColor: #000;
+}
+html {
+    /* Reset para rems 62.5% = 10px */
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+/*Estilos generales*/
+.section{
+    max-width: 140rem;
+    margin: 0 auto;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--textColor);
+}
+.navbar ul li{
+    list-style: none;
+}
+.container{
+
+}
+body{
+    font-size: 1.6rem;
+    line-height: 2;
+}
