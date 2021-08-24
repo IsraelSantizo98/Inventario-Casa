@@ -1,4 +1,5 @@
 <?php
+    //incluye archivos de php como link
     include 'php/conection.php';
 ?>
 <!DOCTYPE html>
